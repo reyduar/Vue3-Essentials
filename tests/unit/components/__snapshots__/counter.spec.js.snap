@@ -2,8 +2,9 @@
 
 exports[`Counter Component test should match with the snaoshot 1`] = `
 <div>
-  <h1> - 0</h1>
-  <p>0 <sup>2</sup> = 0</p>
+  <h1>Counter</h1>
+  <h2>100</h2>
+  <p>100 <sup>2</sup> = 10000</p>
   <p></p><button>Increment</button><button>Decrement</button>
 </div>
 `;
