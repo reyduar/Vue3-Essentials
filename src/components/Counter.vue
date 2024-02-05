@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ customTitle }}</h1>
-    <h2>{{ initialCount }}</h2>
+    <h2 data-testid="initialCount">{{ initialCount }}</h2>
     <p>{{ count }} <sup>2</sup> = {{ squareCounter }}</p>
     <p></p>
     <button @click="increment">Increment</button>
