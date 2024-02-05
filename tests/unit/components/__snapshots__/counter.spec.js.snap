@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component test should match with the snaoshot 1`] = `
+<div>
+  <h1> - 0</h1>
+  <p>0 <sup>2</sup> = 0</p>
+  <p></p><button>Increment</button><button>Decrement</button>
+</div>
+`;

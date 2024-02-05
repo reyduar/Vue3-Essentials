@@ -14,7 +14,7 @@ export default {
     title: String,
     initialCount: {
       type: Number,
-      default: 0,
+      default: 100,
       validator: (value) => value >= 0,
     },
   },
