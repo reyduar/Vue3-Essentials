@@ -2,7 +2,10 @@
   <div>
     <h1>{{ customTitle }}</h1>
     <h2 data-testid="initialCount">{{ initialCount }}</h2>
-    <p>{{ count }} <sup>2</sup> = {{ squareCounter }}</p>
+    <p>
+      <span data-testid="counter">{{ count }}</span
+      ><sup>2</sup> = {{ squareCounter }}
+    </p>
     <p></p>
     <button @click="increment">Increment</button>
     <button @click="decrement">Decrement</button>
